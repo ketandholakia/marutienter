@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.astro";
+import Services from "../components/Services.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="This is title">
   <!-- Spinner Start -->
   <!-- <div
       id="spinner"
@@ -13,19 +14,18 @@ import Carousel from "../components/Carousel.astro";
     </div> -->
   <!-- Spinner End -->
 
-  <!-- Navbar start -->
-
-  <!-- Navbar End -->
-
   <!-- Modal Search Start -->
 
   <!-- Modal Search End -->
 
   <!-- Carousel Start -->
+  <Carousel />
 
   <!-- Carousel End -->
 
   <!-- Services Start -->
+
+  <Services />
 
   <!-- Services End -->
 
@@ -60,10 +60,4 @@ import Carousel from "../components/Carousel.astro";
   <!-- Copyright End -->
 
   <!-- Back to Top -->
-  <a
-    href="#"
-    class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"
-    ><i class="fa fa-arrow-up"></i></a
-  >
 </Layout>
-
